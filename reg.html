@@ -31,28 +31,28 @@
             <form class="row"  action="https://formspree.io/f/mqkjzyyy" method="POST">
               <div class="col-md-6">
                 <label for="inputEmail4" class="form-label"><i class="fa-solid fa-signature"></i> আপনার নাম /Your Name</label>
-                <input type="text" name="name" required class="form-control" id="inputEmail4" placeholder="আপনার নাম লিখুন">
+                <input type="text" name="Name" required class="form-control" id="inputEmail4">
               </div>
               <div class="col-md-6">
                 <label for="inputPassword4" class="form-label"><i class="fa-sharp fa-solid fa-lock"></i> ই-মেইল / E-mail</label>
-                <input type="email" name="email" required class="form-control" id="inputPassword4" placeholder="আপনার ই-মেইল এড্রেসটি লিখুন">
+                <input type="email" name="E-mail" required class="form-control" id="inputPassword4">
               </div>
               <div class="col-md-6 col-12">
                 <label for="inputAddress" class="form-label"><i class="fa-solid fa-phone"></i> ফোন নম্বর/Phone Number</label>
-                <input type="text" name="Phone number" required class="form-control" id="inputAddress" placeholder="আপনার ফোন নম্বর লিখুন">
+                <input type="text" name="Phone number" required class="form-control" id="inputAddress">
               </div>
               <div class="col-md-6">
                 <label for="inputCity" class="form-label"><i class="fa-solid fa-cart-shopping"></i> Product Code Number</label>
-                <input type="text" name="Product Code number" required class="form-control" id="inputCity" placeholder="CODE:101">
+                <input type="text" name="Product Code number" required class="form-control" id="inputCity" >
               </div>
               <div class="col-12">
                 <label for="inputAddress2" class="form-label"><i class="fa-solid fa-map-location"></i> ঠিকানা/Address</label>
-                <input type="text" name="Address" required class="form-control" id="inputAddress2" placeholder="Place,city or Division">
+                <input type="text" name="Address" required class="form-control" id="inputAddress2">
               </div>
               
               <div class="col-md-4">
                 <label for="inputState" class="form-label"><i class="fa-solid fa-sort"></i> Order type</label>
-                <select id="inputState" class="form-select">
+                <select id="inputState" class="form-select" name="Order type" required>
                   <option selected>Gadget</option>
                   <option selected>T-Shirt</option>
                   <option selected>Jersy</option>
@@ -61,9 +61,10 @@
               </div>
               <div class="col-md-2">
                 <label for="inputZip" class="form-label"><i class="fa-solid fa-money-check-dollar"></i> Payment Method</label>
-                <select id="inputState" class="form-select">
+                <select id="inputState" class="form-select" name="Payment method" required>
                   <option selected>Bkash<img class="img-fluid" src="img/bkash-logo-FBB258B90F-seeklogo.png" alt=""></option>
                   <option selected>Nagad</option>
+                  <option selected>Cash on delivary</option>
                   <option selected>Select</option>
                 </select>
               </div>
