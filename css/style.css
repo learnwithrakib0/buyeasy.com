@@ -16,7 +16,7 @@
     font-family: montserrat;
   }
   nav{
-    background: #0082e6;
+    background: #df0046;
     height: 80px;
     width: 100%;
     position: fixed;
@@ -58,6 +58,7 @@
     margin-right: 40px;
     cursor: pointer;
     display: none;
+    margin-top: 23px;
   }
   #check{
     display: none;
@@ -225,7 +226,7 @@
 }
 
 .top{
-  background-color: #03e7bd;
-  height:140vh;
-}
+  background-color: #0d6efd;
+  height:160vh;
+} 
 
